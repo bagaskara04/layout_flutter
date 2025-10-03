@@ -49,11 +49,20 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Tumpak Sewu merupakan salah satu air terjun terindah di Indonesia yang terletak di perbatasan Kabupaten Lumajang dan Malang, Jawa Timur. Nama “Tumpak Sewu” berarti “seribu air terjun” dalam bahasa Jawa, menggambarkan keindahan aliran airnya yang jatuh berjajar dari tebing tinggi menyerupai tirai alam. Bentuknya yang megah membuat Tumpak Sewu dijuluki sebagai Niagara-nya Indonesia karena panorama yang luar biasa memukau, dikelilingi oleh tebing hijau dan pemandangan alam yang masih sangat asri.\n\n'
+        'Suasana di sekitar air terjun terasa begitu menenangkan dengan suara gemericik air dan udara sejuk khas pegunungan. Meski perjalanan menuju lokasi cukup menantang dengan jalur yang menurun dan curam, semua rasa lelah akan terbayar lunas ketika menyaksikan kemegahan Tumpak Sewu secara langsung. Tempat ini tidak hanya menjadi destinasi favorit para pecinta alam dan fotografer, tetapi juga menawarkan pengalaman tak terlupakan tentang keindahan alam Indonesia yang menakjubkan.',
+        softWrap: true,
+      ),
+    );
+
     return MaterialApp(
       title: 'Flutter layout: Fachry Akbar Bagaskara 2341760133',
       home: Scaffold(
         appBar: AppBar(title: const Text('Flutter layout demo')),
-        body: Column(children: [titleSection, buttonSection]),
+        body: Column(children: [titleSection, buttonSection, textSection]),
       ),
     );
   }

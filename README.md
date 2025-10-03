@@ -28,3 +28,9 @@
 ![prak1](images/02_02.png)
 ### Langkah 3: Tambah button section ke body
 ![prak1](images/02_03.png)
+
+## Praktikum 3: Implementasi text section
+### Langkah 1: Buat widget textSection
+![prak1](images/03_01.png)
+### Langkah 2: Tambahkan variabel text section ke body
+![prak1](images/03_02.png)
