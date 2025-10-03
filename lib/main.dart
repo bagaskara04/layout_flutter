@@ -62,7 +62,19 @@ class MyApp extends StatelessWidget {
       title: 'Flutter layout: Fachry Akbar Bagaskara 2341760133',
       home: Scaffold(
         appBar: AppBar(title: const Text('Flutter layout demo')),
-        body: Column(children: [titleSection, buttonSection, textSection]),
+        body: ListView(
+          children: [
+            Image.asset(
+              'images/cobansrikandi.jpeg',
+              width: 400,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
+            titleSection,
+            buttonSection,
+            textSection,
+          ],
+        ),
       ),
     );
   }

@@ -23,14 +23,22 @@
 
 ## Praktikum 2: Implementasi button row
 ### Langkah 1: Buat method Column _buildButtonColumn
-![prak1](images/02_01.png)
+![prak2](images/02_01.png)
 ### Langkah 2: Buat widget buttonSection
-![prak1](images/02_02.png)
+![prak2](images/02_02.png)
 ### Langkah 3: Tambah button section ke body
-![prak1](images/02_03.png)
+![prak2](images/02_03.png)
 
 ## Praktikum 3: Implementasi text section
 ### Langkah 1: Buat widget textSection
-![prak1](images/03_01.png)
+![prak3](images/03_01.png)
 ### Langkah 2: Tambahkan variabel text section ke body
-![prak1](images/03_02.png)
+![prak3](images/03_02.png)
+
+## Praktikum 4: Implementasi image section
+### Langkah 1: Siapkan aset gambar
+![prak4](images/04_01.png)
+### Langkah 2: Tambahkan gambar ke body
+![prak4](images/04_02.png)
+### Langkah 3: Terakhir, ubah menjadi ListView
+![prak4](images/04_03.png)
