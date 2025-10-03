@@ -20,3 +20,11 @@
 ##### Borders: Tidak ada penggunaan border secara eksplisit, tetapi padding dan spacing mengatur jarak antar elemen.
 ### Langkah 4: Implementasi title row
 ![prak1](images/01_04.png)
+
+## Praktikum 2: Implementasi button row 
+### Langkah 1: Buat method Column _buildButtonColumn
+![prak1](images/02_01.png)
+### Langkah 2: Buat widget buttonSection
+![prak1](images/02_02.png)
+### Langkah 3: Tambah button section ke body
+![prak1](images/02_03.png)
