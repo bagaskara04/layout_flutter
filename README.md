@@ -21,7 +21,7 @@
 ### Langkah 4: Implementasi title row
 ![prak1](images/01_04.png)
 
-## Praktikum 2: Implementasi button row 
+## Praktikum 2: Implementasi button row
 ### Langkah 1: Buat method Column _buildButtonColumn
 ![prak1](images/02_01.png)
 ### Langkah 2: Buat widget buttonSection

@@ -20,12 +20,12 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Wisata Air Terjun di Tumpang',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),
                 Text(
-                  'Batu, Malang, Indonesia',
+                  'Tumpang, Kab. Malang, Indonesia',
                   style: TextStyle(color: Colors.grey[500]),
                 ),
               ],
@@ -52,8 +52,8 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: const Text(
-        'Tumpak Sewu merupakan salah satu air terjun terindah di Indonesia yang terletak di perbatasan Kabupaten Lumajang dan Malang, Jawa Timur. Nama “Tumpak Sewu” berarti “seribu air terjun” dalam bahasa Jawa, menggambarkan keindahan aliran airnya yang jatuh berjajar dari tebing tinggi menyerupai tirai alam. Bentuknya yang megah membuat Tumpak Sewu dijuluki sebagai Niagara-nya Indonesia karena panorama yang luar biasa memukau, dikelilingi oleh tebing hijau dan pemandangan alam yang masih sangat asri.\n\n'
-        'Suasana di sekitar air terjun terasa begitu menenangkan dengan suara gemericik air dan udara sejuk khas pegunungan. Meski perjalanan menuju lokasi cukup menantang dengan jalur yang menurun dan curam, semua rasa lelah akan terbayar lunas ketika menyaksikan kemegahan Tumpak Sewu secara langsung. Tempat ini tidak hanya menjadi destinasi favorit para pecinta alam dan fotografer, tetapi juga menawarkan pengalaman tak terlupakan tentang keindahan alam Indonesia yang menakjubkan.',
+        'Coban Srikandi adalah air terjun indah yang terletak di Desa Srigading, Kecamatan Tumpang, Kabupaten Malang, Jawa Timur, terkenal dengan suasana alamnya yang masih alami, udara sejuk, dan panorama hutan yang menenangkan. Untuk mencapai lokasi ini, pengunjung perlu menempuh perjalanan sekitar 45-60 menit dari pusat Kota Malang, kemudian berjalan kaki menyusuri jalan setapak yang dikelilingi pepohonan rindang. Keindahan air yang jatuh dari tebing tinggi berpadu dengan suara gemericik dan kicauan burung menciptakan suasana damai yang cocok untuk melepas penat. Tempat ini juga menjadi favorit para pecinta fotografi karena pemandangannya yang memukau dan fotogenik. Dengan keasrian dan pesona alamnya, Coban Srikandi menjadi destinasi wisata yang ideal untuk menikmati keindahan alam khas Malang.\n\n'
+        'Oleh Fachry Akbar Bagaskara - 2341760133',
         softWrap: true,
       ),
     );
