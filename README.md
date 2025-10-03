@@ -42,3 +42,20 @@
 ![prak4](images/04_02.png)
 ### Langkah 3: Terakhir, ubah menjadi ListView
 ![prak4](images/04_03.png)
+
+## Praktikum 4: Implementasi image section
+### Langkah 1: Siapkan project baru
+![prak5](images/05_01.png)
+### Langkah 2: Mendefinisikan Route
+![prak5](images/05_02_01.png)
+![prak5](images/05_02_02.png)
+### Langkah 3: Lengkapi Kode di main.dart
+![prak5](images/05_03.png)
+### Langkah 4: Membuat data model
+![prak5](images/05_04.png)
+### Langkah 5: Lengkapi kode di class HomePage
+![prak5](images/05_05.png)
+### Langkah 6: Membuat ListView dan itemBuilder
+![prak5](images/05_06.png)
+### Langkah 7: Menambahkan aksi pada ListView
+![prak5](images/05_07.png)
