@@ -76,4 +76,9 @@
 ![tugasprak2](images/prak2_3_4.png)
 
 ### 4. Implementasi Hero Widget
-![tugasprak2](images/prak2_3_5.gif)
+![tugasprak2](images/prak2_4.gif)
+
+### 5. Modifikasi Nama dan NIM pada Footer
+![tugasprak2](images/prak2_5.png)
+#### Memecah widget Item card
+![tugasprak2](images/prak2_5_1.png)
