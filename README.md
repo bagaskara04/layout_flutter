@@ -63,5 +63,14 @@
 
 ## Tugas Praktikum 2
 ### 1. Navigator
-![prak5](images/05_07.png)
-### 2. Pembacaan dan penerimaan Nilai 
+![tugasprak2](images/prak2_1.png)
+### 2. Pembacaan dan penerimaan Nilai
+![tugasprak2](images/prak2_2.png)
+### 3. Gridview
+#### Buat variabel dari harga gambar dan rating
+![tugasprak2](images/prak2_3_1.png)
+#### siapkan assets
+![tugasprak2](images/prak2_3_2.png)
+#### Modifikasi halaman home_page dan item_page
+![tugasprak2](images/prak2_3_3.png)
+![tugasprak2](images/prak2_3_4.png)
