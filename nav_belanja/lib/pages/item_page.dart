@@ -18,36 +18,60 @@ class ItemPage extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(20.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(12),
-                child: Image.asset(
-                  itemArgs.image,
-                  height: 200,
-                  fit: BoxFit.cover,
+              Hero(
+                tag: itemArgs.name,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(16),
+                  child: Image.asset(
+                    itemArgs.image,
+                    height: 250,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 24),
               Text(
                 itemArgs.name,
                 style: const TextStyle(
-                  fontSize: 24,
+                  fontSize: 26,
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              const SizedBox(height: 12),
+              Text(
+                'Harga: Rp ${itemArgs.price}',
+                style: const TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.green,
+                ),
+              ),
               const SizedBox(height: 8),
-              Text('Harga: Rp ${itemArgs.price}'),
-              Text('Stok: ${itemArgs.stock}'),
+              Text(
+                'Stok tersedia: ${itemArgs.stock}',
+                style: const TextStyle(fontSize: 18, color: Colors.black87),
+              ),
+              const SizedBox(height: 16),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(Icons.star, color: Colors.amber),
-                  Text('${itemArgs.rating} / 5'),
+                  const Icon(Icons.star, color: Colors.amber, size: 26),
+                  const SizedBox(width: 6),
+                  Text(
+                    '${itemArgs.rating} / 5',
+                    style: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
                 ],
               ),
+              const SizedBox(height: 30),
             ],
           ),
         ),

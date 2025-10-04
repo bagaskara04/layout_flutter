@@ -33,10 +33,10 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(8),
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, 
+            crossAxisCount: 2,
             crossAxisSpacing: 8,
             mainAxisSpacing: 8,
-            childAspectRatio: 0.7, 
+            childAspectRatio: 0.7,
           ),
           itemCount: items.length,
           itemBuilder: (context, index) {
@@ -46,27 +46,30 @@ class HomePage extends StatelessWidget {
                 Navigator.pushNamed(context, '/item', arguments: item);
               },
               child: Card(
-                elevation: 4,
+                elevation: 6,
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
+                  borderRadius: BorderRadius.circular(16),
                 ),
+                shadowColor: Colors.black,
                 child: Column(
-                  mainAxisSize: MainAxisSize.min, 
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    ClipRRect(
-                      borderRadius: const BorderRadius.vertical(
-                        top: Radius.circular(12),
-                      ),
-                      child: Image.asset(
-                        item.image,
-                        width: double.infinity,
-                        height: 140, 
-                        fit: BoxFit.cover,
+                    Hero(
+                      tag: item.name,
+                      child: ClipRRect(
+                        borderRadius: const BorderRadius.vertical(
+                          top: Radius.circular(16),
+                        ),
+                        child: Image.asset(
+                          item.image,
+                          width: double.infinity,
+                          height: 150,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(10.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisSize: MainAxisSize.min,
@@ -78,14 +81,41 @@ class HomePage extends StatelessWidget {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-                          const SizedBox(height: 4),
-                          Text('Price: Rp ${item.price}'),
-                          Text('Stock: ${item.stock}'),
+                          const SizedBox(height: 6),
+                          Text(
+                            'Price: Rp ${item.price}',
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.green,
+                            ),
+                          ),
                           const SizedBox(height: 4),
                           Row(
                             children: [
-                              const Icon(Icons.star, color: Colors.amber, size: 16),
-                              Text('${item.rating} / 5'),
+                              const Icon(
+                                Icons.inventory,
+                                size: 16,
+                                color: Colors.grey,
+                              ),
+                              const SizedBox(width: 4),
+                              Text('Stok: ${item.stock}'),
+                            ],
+                          ),
+                          const SizedBox(height: 4),
+                          Row(
+                            children: [
+                              const Icon(
+                                Icons.star,
+                                color: Colors.amber,
+                                size: 18,
+                              ),
+                              Text(
+                                '${item.rating}',
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
                             ],
                           ),
                         ],

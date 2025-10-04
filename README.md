@@ -74,3 +74,6 @@
 #### Modifikasi halaman home_page dan item_page
 ![tugasprak2](images/prak2_3_3.png)
 ![tugasprak2](images/prak2_3_4.png)
+
+### 4. Implementasi Hero Widget
+![tugasprak2](images/prak2_3_5.gif)
