@@ -59,3 +59,4 @@
 ![prak5](images/05_06.png)
 ### Langkah 7: Menambahkan aksi pada ListView
 ![prak5](images/05_07.png)
+#### Pada saat klik salah satu Item, detail Item menampilkan halaman error
