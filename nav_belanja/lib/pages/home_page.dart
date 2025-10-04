@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
               child: InkWell(
                 onTap: () {
                   // 👇 Langkah 7: Navigasi ke halaman '/item'
-                  Navigator.pushNamed(context, '/item');
+                  Navigator.pushNamed(context, '/item', arguments: item);
                 },
                 child: Container(
                   margin: const EdgeInsets.all(8),

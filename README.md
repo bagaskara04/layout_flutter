@@ -60,3 +60,8 @@
 ### Langkah 7: Menambahkan aksi pada ListView
 ![prak5](images/05_07.png)
 #### Pada saat klik salah satu Item, detail Item menampilkan halaman error
+
+## Tugas Praktikum 2
+### 1. Navigator
+![prak5](images/05_07.png)
+### 2. Pembacaan dan penerimaan Nilai 
