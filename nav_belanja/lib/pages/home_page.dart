@@ -1,5 +1,6 @@
 // lib/pages/home_page.dart
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:nav_belanja/models/item.dart';
 import 'package:nav_belanja/widgets/item_card.dart';
 import 'package:nav_belanja/widgets/footer.dart';
@@ -50,7 +51,7 @@ class HomePage extends StatelessWidget {
                   return ItemCard(
                     item: item,
                     onTap: () {
-                      Navigator.pushNamed(context, '/item', arguments: item);
+                      context.push('/item', extra: item);
                     },
                   );
                 },

@@ -82,3 +82,10 @@
 ![tugasprak2](images/prak2_5.png)
 #### Memecah widget Item card
 ![tugasprak2](images/prak2_5_1.png)
+
+### 6. Go Router
+#### Menambahkan dependensi go router
+![tugasprak2](images/prak2_6_1.png)
+#### Ubah main.dart, home_page.dart dan item_page.dart menggunakan go router
+![tugasprak2](images/prak2_6_2.png)
+![tugasprak2](images/prak2_6_3.gif)
