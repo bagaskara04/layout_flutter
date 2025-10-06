@@ -43,7 +43,7 @@
 ### Langkah 3: Terakhir, ubah menjadi ListView
 ![prak4](images/04_03.png)
 
-## Praktikum 4: Implementasi image section
+## Praktikum 5: Membangun Navigasi di Flutter
 ### Langkah 1: Siapkan project baru
 ![prak5](images/05_01.png)
 ### Langkah 2: Mendefinisikan Route
